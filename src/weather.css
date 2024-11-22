@@ -1,0 +1,14 @@
+.Weather .wrapper {
+  display: flex;
+}
+
+.Weather .temperature {
+  font-size: 60px;
+}
+.Weather img {
+  width: 60px;
+  height: 60px;
+}
+.Weather .unit {
+  margin-top: 15px;
+}
