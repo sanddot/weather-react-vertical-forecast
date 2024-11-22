@@ -10,5 +10,11 @@
   height: 60px;
 }
 .Weather .unit {
-  margin-top: 15px;
+  margin-left: 5px;
+  position: relative;
+  line-height: 1;
+  top: -30px;
+}
+.Weather .unit a {
+  text-decoration: none;
 }
