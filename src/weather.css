@@ -1,3 +1,9 @@
+.Weather {
+  border: 1px solid rgb(217, 217, 217);
+  border-radius: 5px;
+  padding: 20px;
+}
+
 .Weather .wrapper {
   display: flex;
 }
@@ -17,4 +23,11 @@
 }
 .Weather .unit a {
   text-decoration: none;
+}
+.Weather .loader {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
 }

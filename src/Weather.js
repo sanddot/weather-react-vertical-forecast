@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import FormattedDate from "./FormattedDate";
 import axios from "axios";
-import "./weather.css";
 import WeatherInfo from "./WeatherInfo";
+import "./weather.css";
+import { Puff } from "react-loader-spinner";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -60,6 +61,19 @@ export default function Weather(props) {
   } else {
     search();
 
-    return "loading...";
+    return (
+      <div className="loader">
+        <p>Loading...</p>
+        <Puff
+          visible={true}
+          height="60"
+          width="60"
+          color="blue"
+          ariaLabel="puff-loading"
+          wrapperStyle={{}}
+          wrapperClass=""
+        />
+      </div>
+    );
   }
 }

@@ -31,7 +31,7 @@ export default function WeatherInfo(props) {
         </div>
         <div className="col-4">
           <div className="foreacast-day">
-            <div>Forecast portion</div>
+            <div>Forecast portion </div>
             <span>Mon </span>
             <span> 🌤️ </span>
             <span> 20º / </span>
