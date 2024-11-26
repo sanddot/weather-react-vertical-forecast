@@ -1,0 +1,8 @@
+.WeatherInfo .weather-forecast {
+  line-height: 3;
+  display: flex;
+  justify-content: space-between;
+}
+.WeatherInfo .forecast-min {
+  margin-left: 5px;
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherTemperature from "./WeatherTemperature";
+import "./weatherInfo.css";
 
 export default function WeatherInfo(props) {
   return (
@@ -30,12 +31,15 @@ export default function WeatherInfo(props) {
           </ul>
         </div>
         <div className="col-4">
-          <div className="foreacast-day">
-            <div>Forecast portion </div>
-            <span>Mon </span>
-            <span> 🌤️ </span>
-            <span> 20º / </span>
-            <span> 5º</span>
+          <div className="weather-forecast">
+            <span className="forecast-day">Mon </span>
+            <span className="forecast-icon"> 🌤️ </span>
+            <span>
+              <span className="forecast-max">
+                <strong> 20º </strong>
+              </span>
+              <span className="forecast-min"> 5º</span>
+            </span>
           </div>
         </div>
       </div>
