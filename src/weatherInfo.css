@@ -1,8 +1,12 @@
-.WeatherInfo .weather-forecast {
+.WeatherForecastDay {
   line-height: 3;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
-.WeatherInfo .forecast-min {
+.WeatherForecastDay .forecast-min {
   margin-left: 5px;
+}
+.WeatherForecastDay img {
+  width: 30px;
+  height: 30px;
 }

@@ -10,7 +10,7 @@ export default function App() {
         <Weather defaultCity="Vancouver" />
       </div>
       <footer>
-        <p>
+        <div>
           This project was coded by{" "}
           <a href="https://github.com/sanddot">Sandra Domeikiene</a>, is{" "}
           <a href="https://github.com/sanddot/weather-react-vertical-forecast">
@@ -20,7 +20,7 @@ export default function App() {
           <a href="https://candid-caramel-73ba91.netlify.app/">
             hosted on Netlify
           </a>
-        </p>
+        </div>
       </footer>
     </div>
   );

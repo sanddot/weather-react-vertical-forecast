@@ -53,9 +53,9 @@ export default function Weather(props) {
             <input type="submit" value="Search" className="btn btn-primary" />
           </div>
         </form>
-        <p>
+        <div>
           <FormattedDate date={weatherData.date} />
-        </p>
+        </div>
         <WeatherInfo data={weatherData} />
       </div>
     );
